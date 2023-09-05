@@ -1,11 +1,10 @@
-package com.example.task3;
+package com.example.task;
 
-import java.io.BufferedReader;
-import java.io.IOException;
+
 import java.util.Scanner;
 
 public class Task {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         int x1 = x.nextInt();
         Scanner y = new Scanner(System.in);
