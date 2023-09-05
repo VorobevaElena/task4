@@ -1,8 +1,8 @@
-module com.example.task3 {
+module com.example.task {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.task3 to javafx.fxml;
-    exports com.example.task3;
+    opens com.example.task to javafx.fxml;
+    exports com.example.task;
 }
